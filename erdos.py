@@ -15,7 +15,7 @@ def evaluator(x):
             #distance between points
             d = sqrt((x2-x1)**2+(y2-y1)**2)
             #ideally d=1 for all pairs. then error=0. 
-            #(though in 2d this can only be possible for less than 3 points)
+            #(though in 2d this can only be possible for less than 4 points)
             error += (1-d)**2
     return error    
     
